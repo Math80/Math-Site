@@ -6,8 +6,16 @@
   h1 {
     font-size: 7em;
   }
+  .cv-logos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+  }
   img {
     width: 10%;
+    text-align: center;
+    
 
   }
   

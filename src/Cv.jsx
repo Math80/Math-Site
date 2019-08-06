@@ -7,13 +7,13 @@ function Cv() {
       <h1>CV</h1>
       <div className="cv-logos">
         <img src="/images/logos/html5-js-css3.png" alt="html"></img>
-        <img src="/images/logos/react.jpg" alt="html"></img>
+        <img src="/images/logos/react.png" alt="html"></img>
         <img src="/images/logos/redux_logo.png" alt="html"></img>
         <img src="/images/logos/github.png" alt="html"></img>
         <img src="/images/logos/sass.png" alt="html"></img>
         <img src="/images/logos/mysql.png" alt="html"></img>
         <img src="/images/logos/nodejs.png" alt="html"></img>
-        <img src="/images/logos/node_js.jpg" alt="html"></img>
+        <img src="/images/logos/nodejs2.png" alt="html"></img>
         <img src="/images/logos/expressjs.png" alt="html"></img>
       </div>
 
