@@ -1,0 +1,14 @@
+.Home {
+  position: relative;
+  min-height: calc(100vh - 175px);
+  padding-top: 100px;
+
+  p {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: darkgrey;
+    width: 50%;
+    margin: auto;
+    color: white;
+  }
+}
