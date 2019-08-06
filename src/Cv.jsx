@@ -5,6 +5,9 @@ function Cv() {
   return(
     <div className="Cv">
       <h1>CV</h1>
+      <div className="cv-texte">
+        
+      </div>
       <div className="cv-logos">
         <img src="/images/logos/html5-js-css3.png" alt="html"></img>
         <img src="/images/logos/react.png" alt="html"></img>
