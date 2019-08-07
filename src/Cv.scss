@@ -3,18 +3,69 @@
   min-height: calc(100vh - 175px);
   padding-top: 100px;
 
+
   h1 {
-    font-size: 7em;
+    font-size: 4em;
   }
-  .cv-logos {
+  .cv-texte {
+    
+  }
+  .contact-propos {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
+  }
+  .contact {
+    width: 40%;
+    text-align: left;
+  }
+  .propos {
+    width: 40%;
+    text-align: left;
+  }
+  .formation-experience {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .formation {
+    width: 40%;
+    text-align: left;
+  }
+  .experience {
+    width: 40%;
+    text-align: left;
+  }
+  .skills-hobbies {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .hard-skills {
+    width: 20%;
+    text-align: left;
+  }
+  .soft-skills {
+    width: 20%;
+    text-align: left;
+  }
+  .hobbies {
+    width: 20%;
+    text-align: left;
+  }
+  .cv-logos {
+    width: 100%;
+    flex-direction: column;
+  }
+  .logos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
   }
   img {
     width: 10%;
     text-align: center;
+    margin: 5px;
     
 
   }
