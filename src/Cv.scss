@@ -3,56 +3,28 @@
   min-height: calc(100vh - 175px);
   padding-top: 100px;
 
-
   h1 {
     font-size: 4em;
   }
-  .cv-texte {
-    
-  }
-  .contact-propos {
+  
+  .contact-propos, .formation-experience {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    margin: 10%;
   }
-  .contact {
-    width: 40%;
-    text-align: left;
-  }
-  .propos {
-    width: 40%;
-    text-align: left;
-  }
-  .formation-experience {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-  }
-  .formation {
-    width: 40%;
-    text-align: left;
-  }
-  .experience {
-    width: 40%;
+  .contact, .propos, .formation, .experience {
+    width: 50%;
     text-align: left;
   }
   .skills-hobbies {
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-between;
+    margin: 10%;
   }
-  .hard-skills {
-    width: 20%;
+  .hard-skills, .soft-skills, .hobbies {
     text-align: left;
   }
-  .soft-skills {
-    width: 20%;
-    text-align: left;
-  }
-  .hobbies {
-    width: 20%;
-    text-align: left;
-  }
+  
   .cv-logos {
     width: 100%;
     flex-direction: column;
@@ -66,8 +38,31 @@
     width: 10%;
     text-align: center;
     margin: 5px;
-    
-
   }
-  
+
+  @media (max-width: 480px) {
+    .cv-texte {
+      width: 90%;
+      margin: auto;
+    }
+    h1 {
+      font-size: 1.5em;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    p {
+      width: 100%;
+    }
+    .cv-texte {
+      width: 100%;
+      align-items: center;
+    }
+    .contact-propos, .formation-experience, .skills-hobbies {
+      flex-direction: column;
+      width: 90%;
+   }
+   .contact, .propos, .formation, .experience, .hard-skills, .soft-skills, .hobbies {
+      width: 90%;
+   }
+  }
 }
