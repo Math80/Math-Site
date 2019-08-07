@@ -6,7 +6,7 @@ function NavBar() {
   return(
     <div className="NavBar">
       <div className="title">
-        <NavLink activeClassName="active" exact to="/"><img src="/image/Logo.png" alt="Logo" /></NavLink>
+        <NavLink activeClassName="active" exact to="/"><img src="/images/logos/logo_mt.png" alt="Logo" /></NavLink>
       </div>
       <div>
       <h1>MATHIAS TUJAGUE</h1>
