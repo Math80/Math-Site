@@ -15,6 +15,11 @@
   .contact, .propos, .formation, .experience {
     width: 50%;
     text-align: left;
+    border-radius: 10px;
+    background-color: lightgray;
+    margin: 10px;
+    padding: 10px;
+    /* border: 1px solid black; */
   }
   .skills-hobbies {
     display: flex;
@@ -22,7 +27,12 @@
     margin: 10%;
   }
   .hard-skills, .soft-skills, .hobbies {
+    width: 20%;
     text-align: left;
+    border-radius: 10px;
+    background-color: lightgray;
+    margin: 10px;
+    padding: 10px;
   }
   
   .cv-logos {
