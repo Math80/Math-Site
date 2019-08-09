@@ -19,6 +19,7 @@
     background-color: lightgray;
     margin: 10px;
     padding: 10px;
+    color: white;
     /* border: 1px solid black; */
   }
   .skills-hobbies {
@@ -33,6 +34,7 @@
     background-color: lightgray;
     margin: 10px;
     padding: 10px;
+    color: white;
   }
   
   .cv-logos {
@@ -69,7 +71,7 @@
     }
     .contact-propos, .formation-experience, .skills-hobbies {
       flex-direction: column;
-      width: 90%;
+      
    }
    .contact, .propos, .formation, .experience, .hard-skills, .soft-skills, .hobbies {
       width: 90%;
